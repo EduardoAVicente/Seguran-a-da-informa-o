@@ -1,11 +1,10 @@
 ﻿**Grupo:**
 
-Eduardo Antunes Vicente RA: 22.121.010-7
+[Eduardo Antunes Vicente RA: 22.121.010-7](https://github.com/EduardoAVicente)
 
-Ana Jéssica Soares da Silva RA: 22.121.100-6
+[Ana Jéssica Soares da Silva RA: 22.121.100-6](https://github.com/AnaJessicaSS)
 
-Felipe de Campos Oka RA: 22.121.001-6
-
+[Felipe de Campos Oka RA: 22.121.001-6](https://github.com/KaburauNero)
 
 <table><tr><th valign="top"><b>Frases</b></th><th valign="top"><b>Codificações(corrigidas)</b></th><th valign="top"><b>Justificativas</b></th></tr>
 <tr><td rowspan="2" valign="top">A primeira das instituições criadas pelo Pe. Roberto Sabóia de Medeiros foi a antiga Escola Superior de Administração de Negócios de São Paulo - ESAN/SP.</td><td valign="top"><b>SHA-256:</b> d24de3ec3835115c576a55188a31761b73af93ed2c45a171c810bb66b24b08f9</td><td rowspan="2" valign="top">Ambas as frases (SHA256 e o MD5) estão corretas</td></tr>
