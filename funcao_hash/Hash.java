@@ -5,7 +5,6 @@ import java.security.NoSuchAlgorithmException;
 public class Hash {
 
     public static void main(String[] args) {
-        // Texto de exemplo
         String myText = "Em 1999 iniciam-se as atividades da FCI (Faculdade de Informática), como o curso de Ciência da Computação.";
 
         try {
@@ -15,7 +14,6 @@ public class Hash {
             // Calcular MD5
             String md5Hash = gerarHash(myText, "MD5");
 
-            // Exibir os resultados
             System.out.println("Frase: " + myText + "\nSHA-256: " + sha256Hash + "\nMD5:" + md5Hash);
 
         } catch (NoSuchAlgorithmException e) {
@@ -24,10 +22,8 @@ public class Hash {
     }
 
     private static String gerarHash(String input, String algoritmo) throws NoSuchAlgorithmException {
-        // Inicializar o MessageDigest com o algoritmo fornecido (SHA-256 ou MD5)
         MessageDigest digest = MessageDigest.getInstance(algoritmo);
 
-        // Gerar o hash
         byte[] hashBytes = digest.digest(input.getBytes(StandardCharsets.UTF_8));
 
         // Converter os bytes do hash para a representação hexadecimal
